@@ -1,0 +1,53 @@
+{
+   "1":{
+      "name": "mongodb",
+      "description": "The document orientated database",
+      "category": "data",
+      "operations":[
+         {
+            "name": "status",
+            "command":"service mongod status"
+         }
+      ]
+   },
+   "2":{
+      "name": "linux",
+      "description": "Some basic Linx features",
+      "category": "data",
+      "operations":[
+         {
+            "name": "Free memory",
+            "command": "free -m"
+         },
+         {
+            "name": "Uptime",
+            "command":" uptime"
+         },
+         {
+            "name": "Recent logins",
+            "command": "last -ad"
+         }
+
+      ]
+   },
+   "3":{
+      "name": "ufw",
+      "description": "The ubuntu firewall",
+      "category": "utilities",
+      "operations":[
+         {
+            "name": "status",
+            "command": "sudo ufw status verbose"
+         },
+         {
+            "name": "start",
+            "command": "sudo ufw --force enable"
+         },
+         {
+            "name": "stop",
+            "command": "echo 'Computer says no.'"
+         }
+      ]
+   }
+
+}

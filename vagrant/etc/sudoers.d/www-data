@@ -1,0 +1,4 @@
+Defaults:www-data !requiretty
+Defaults:www-data secure_path = /usr/jdk/latest/bin:/usr/local/viator-ops:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+www-data ALL=(ALL) NOPASSWD: /usr/sbin/ufw status
+www-data ALL=(ALL) NOPASSWD: /usr/sbin/ufw enable

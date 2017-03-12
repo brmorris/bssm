@@ -1,0 +1,10 @@
+---
+  name: brads-php-dev
+  hostname: brads-sandbox
+  box: ubuntu/trusty64
+  provider: virtualbox
+  gui: true
+  ram: 256
+  cpus: 1
+  ip: 10.10.10.150
+  projects-folder: "~/src/projects/tyres"
